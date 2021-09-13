@@ -8,5 +8,8 @@ const app = express()
 app.use(cors())
 app.use(express.json())
 
+const samplesRouter = require('./samples/samples.router')
+app.use('/', samplesRouter)
+
 
 module.exports = app
