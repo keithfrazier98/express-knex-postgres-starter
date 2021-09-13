@@ -201,3 +201,14 @@ This repository includes sample migrations, seeds, and routes that query data to
 
     b. Open terminal and run: npm start
     c. any minor bugs or syntax mistakes will likely be hinted at by the nodemon logs, otherwise refer to the files in this repo
+
+## TO CLONE AND SETUP A NEW DATABASE 
+
+    If you'd like to setup another database to this repository you'll need to:
+
+    1. fork and clone this to your local machine 
+    2. download the dependencies by running 'npm i' in the root directory  
+    3. configure the knefile with your database information in the module.exports 
+    4. create a .env file for the dotenv package to parse 
+        a. DATABASE_URL needs to be set to your database url
+
