@@ -12,4 +12,10 @@ const samplesRouter = require('./samples/samples.router')
 app.use('/', samplesRouter)
 
 
+const notFound = require("./errors/notFound");
+app.use(notFound);
+
+const errorHandler = require("./errors/errorHandler");
+app.use(errorHandler)
+
 module.exports = app
