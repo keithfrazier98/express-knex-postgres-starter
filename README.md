@@ -1,4 +1,4 @@
-# Express / Knex / Postgres Start Repository
+# Express, Knex & Postgres Starter
 
 > This is a guide for defining the steps to setting up a backend using the following packages:
 >
